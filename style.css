@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0;
+}
+
+body {
+    background-image: url(/img/pexels-king-siberia-2277980.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+
+.group {
+    height: 450px;
+    width: 555px;
+    display: block;
+    margin-top: 40px;
+    text-align: center;
+    box-shadow: 0px 0px 25px rgba(255, 149, 10, 0.26);
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.47);
+}
+
+#title {
+    font-size: 50px;
+    font-family: fantasy;
+    color: #000000;
+    text-shadow: 2px 2px 2px rgba(255, 149, 10, 0.26);
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+#title1 {
+    font-size: 50px;
+    font-family: fantasy;
+    color: rgba(255, 0, 0, 0.7);
+    text-shadow: 2px 2px 2px rgba(255, 149, 10, 0.26);
+    padding: 10px;
+    padding-bottom: 0;
+}
+
+#ptop {
+    font: bold 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: 	#f9f9f9;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
+    text-align: justify;
+    text-indent: 45px;
+    padding: 0 15px 10px;
+}
+
+.form {
+    text-align: left;
+    padding: 0 20px 0px;
+}
+
+.form1{
+    font-family: 'Times New Roman', Times, serif;
+    color: 	#f9f9f9;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
+}
+
+.form1:hover {
+    text-transform: uppercase;
+}
+
+input[type=text], [type=email], [type=password] {
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 0px 0px 7px rgba(255, 149, 10, 0.26);
+    box-sizing: border-box;
+    font: bold 15px Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #000000;
+    color: rgba(255, 0, 0, 0.6);
+}
+
+input[type=text]:hover, [type=email]:hover, [type=password]:hover {
+    background-color: rgba(255, 149, 10, 0.205);
+    color: #000000;
+}
+
+#btn1 {
+    margin: 10px;
+    padding: 10px 20px 10px;
+    color: rgba(255, 149, 10, 0.26);
+    background-color: #000000;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 0px 0px 7px rgba(255, 149, 10, 0.26);
+    font: 30px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#btn1:hover {
+    opacity: 0.7;
+}
+
+.ul1 {
+    list-style: none;
+    display: flex;
+    padding: 5px 10px 5px;
+    justify-content: baseline;
+}
+
+#pmed {
+    font: bold 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: 	#f9f9f9;
+    text-shadow: 1px 1px 1px rgba(255, 149, 10, 0.26);
+    text-align: justify;
+    text-indent: 15px;
+    padding: 0 10px 0;
+}
+
+.button {
+    height: 40px;
+    width: 555px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#btn2 {
+    margin: 10px;
+    padding: 10px 20px 10px;
+    color: rgba(255, 149, 10, 0.26);
+    background-color: #000000;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 0px 0px 14px rgba(255, 149, 10, 0.26);
+    font: 30px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#btn2:hover {
+    opacity: 0.7;
+}
+
+.down {
+    height: 50px;
+    width: 555px;
+    display: flex;
+    margin-top: 15px;
+    box-shadow: 0px 0px 25px rgba(255, 149, 10, 0.26);
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.47);
+}
+
+.down2 {
+    padding: 5px !important;
+    padding-right: 0;
+}
+
+#label {
+    font: bold 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: 	#f9f9f9;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
+}
+
+#translate { 
+    padding: 5px 15px 5px;
+    color: rgba(255, 149, 10, 0.26);
+    background-color: #000000;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    box-shadow: 0px 0px 7px rgba(255, 149, 10, 0.26);
+    font: 20px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+
+#translate:hover {
+    opacity: 0.7;
+}
+
+#pdown {
+    font: bold 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: 	#f9f9f9;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
+}
+
+.ul2 {
+    list-style-type: none;
+    display: flex; 
+}
+
+.ul2 li {
+    font: bold 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: 	#f9f9f9;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.26);
+    padding: 5px;
+}
+
+.ul2 li:hover {
+    text-decoration: underline;
+    color: rgba(255, 149, 10, 0.26);
+    background-color: #000000;
+    border-radius: 10px;
+}

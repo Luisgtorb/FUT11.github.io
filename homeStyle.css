@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url(/img/pexels-king-siberia-2277980.jpg);
+    background-image: url(img/pexels-king-siberia-2277980.jpg);
     background-size: cover;
     justify-content: center;
 }
@@ -152,7 +152,7 @@ body {
     width: 400px;
     height: 500px;
     background-color: rgba(0, 0, 0, 0.27);
-    background-image: url(/img/pexels-sergio-souza-2291006.jpg);
+    background-image: url(img/pexels-sergio-souza-2291006.jpg);
     z-index: -1;
     background-size: 100% 100%;
     box-shadow: 5px 5px 10px rgba(255, 149, 10, 0.26);
